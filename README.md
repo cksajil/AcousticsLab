@@ -1,2 +1,2 @@
 # AcousticsLab
-Supporting Codes and Data for Paper Submitted in Communication and Media Studies
+Supporting codes and data for the paper titled "Leveraging Room Acoustics in Active Noise Control"
