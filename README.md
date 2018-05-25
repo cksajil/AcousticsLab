@@ -1,2 +1,2 @@
 # AcousticsLab
-Supporting codes and data for the paper titled "Leveraging Room Acoustics in Active Noise Control"
+A Python Module for Simulating Active Noise Control Experiments
