@@ -1,0 +1,9 @@
+# Ignore Mac system files
+.DS_store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
