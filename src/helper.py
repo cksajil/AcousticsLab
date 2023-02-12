@@ -2,7 +2,7 @@ from scipy import signal
 import numpy as np
 
 
-def spectralFlatness(data, sampling_freq, offset=1e-20):
+def spectral_flatness(data, sampling_freq, offset=1e-20):
     """
     A function to compute spectral flatness value of a signal
     """
