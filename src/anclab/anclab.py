@@ -1,5 +1,5 @@
 import numpy as np
-from helper import spectral_flatness
+from .helper import spectral_flatness
 
 
 def main():
