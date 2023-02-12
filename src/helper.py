@@ -2,7 +2,10 @@ from scipy import signal
 import numpy as np
 
 
-def SpectralFlatness(x, Fs, offset=1e-20):
-    f, Pxx_den = signal.periodogram(x, Fs)
-    spectralflatness = np.exp(np.mean(np.log(Pxx_den+offset)))/np.mean(Pxx_den)
+def spectralFlatness(data, sampling_freq, offset=1e-20):
+    """
+    A function to compute spectral flatness value of a signal
+    """
+    freq, power = signal.periodogram(data, sampling_freq)
+    spectralflatness = np.exp(np.mean(np.log(power+offset)))/np.mean(power)
     return spectralflatness
