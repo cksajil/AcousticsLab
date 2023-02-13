@@ -4,7 +4,7 @@ A Python module for simulating Active Noise Control (ANC) experiments
 
 **Python Version**
 ``` 
-Python 3.9.12
+Python 3.9
 ```
 
 ### Setup
