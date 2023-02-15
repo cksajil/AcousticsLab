@@ -17,7 +17,7 @@ class Plot:
     def print_size(self):
         print(self.width, self.height)
 
-    def generate_plot(self, data, sampling_rate):
+    def rir_plot(self, data, sampling_rate):
         fig, ax = plt.subplots()
         fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
         if self.plot_type == 'rir_time':
