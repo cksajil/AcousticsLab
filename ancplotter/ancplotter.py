@@ -20,14 +20,13 @@ class Plot:
     def rir_plot(self, data, sampling_rate):
         fig, ax = plt.subplots()
         fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
-        if self.plot_type == 'rir_time':
-            data_len = len(data)
-            time = np.arange(0, data_len/sampling_rate, (1/sampling_rate)).T
-            plt.plot(time,
-                     data,
-                     ls='solid',
-                     color='k',
-                     linewidth=self.line_width)
-            plt.xlabel('Time (s)')
-            plt.ylabel('Amplitude')
-            plt.show()
+        data_len = len(data)
+        time = np.arange(0, data_len/sampling_rate, (1/sampling_rate)).T
+        plt.plot(time,
+                 data,
+                 ls='solid',
+                 color='k',
+                 linewidth=self.line_width)
+        plt.xlabel('Time (s)')
+        plt.ylabel('Amplitude')
+        plt.show()
