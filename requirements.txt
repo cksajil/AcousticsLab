@@ -1,2 +1,17 @@
+contourpy==1.0.7
+cycler==0.11.0
+Cython==0.29.33
+fonttools==4.38.0
+importlib-resources==5.10.2
+kiwisolver==1.4.4
+matplotlib==3.7.0
 numpy==1.24.2
+packaging==23.0
+Pillow==9.4.0
+pybind11==2.10.3
+pyparsing==3.0.9
+pyroomacoustics==0.7.3
+python-dateutil==2.8.2
 scipy==1.10.0
+six==1.16.0
+zipp==3.13.0
