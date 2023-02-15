@@ -1,4 +1,4 @@
-# AcousticsLab
+# AcousticsLab (Ongoing Project)
 A Python module for simulating Active Noise Control (ANC) experiments
 
 
@@ -32,3 +32,9 @@ python -m pip install --upgrade pip
 *Installing dependencies*
 ```console
 python -m pip install -r requirements.txt
+```
+
+### How to run
+```console
+python main.py
+```
