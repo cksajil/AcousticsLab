@@ -30,3 +30,21 @@ class Plot:
         plt.xlabel('Time (s)')
         plt.ylabel('Amplitude')
         plt.show()
+
+    def secondary_path_graphs(self, e_iden, Sw, Shw):
+        fig, ax = plt.subplots()
+        fig.subplots_adjust(left=.19, bottom=.17, right=.99, top=.97)
+
+        plt.subplot(2, 1, 1)
+        plt.plot(e_iden, label='Identification error')
+        plt.ylabel('Amplitude')
+        plt.xlabel('Discrete time k')
+        plt.legend()
+
+        plt.subplot(2, 1, 2)
+        plt.stem(Sw, markerfmt='o', label='Coefficients of Sz') 
+        plt.stem(Shw, markerfmt='*', label='Coefficients of Shz')
+        plt.ylabel('Amplitude')
+        plt.xlabel('Numbering of filter tap')
+        plt.legend()
+        plt.show()
