@@ -47,3 +47,12 @@ class Plot:
         plt.xlabel('Numbering of filter tap')
         plt.legend()
         plt.show()
+
+    def error_plot(self, error_sig):
+        fig, ax = plt.subplots()
+        fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
+        plt.plot(error_sig, label='error signal')
+        plt.ylabel('Amplitude')
+        plt.xlabel('Time (s)')
+        plt.legend()
+        plt.show()

@@ -44,6 +44,5 @@ Sw = room.rir[0][1]
 # graph_1.secondary_path_graphs(Pw,
 #                               Sw)
 
-error_sig, y_sig = perform_fxlms(Pw, Sw, in_signal, T=1000, L=256, mu=0.001)
-print(error_sig)
-print(y_sig)
+error_sig, y_sig = perform_fxlms(Pw, Sw, in_signal, T=1000, L=256, mu=0.0001)
+graph_1.error_plot(error_sig)
