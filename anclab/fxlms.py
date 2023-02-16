@@ -3,7 +3,7 @@ import numpy as np
 from scipy import signal
 
 
-def ANCInAction(Pw, Sw, x, T=10000, L=256, mu=0.0001):
+def perform_fxlms(Pw, Sw, x, T=10000, L=256, mu=0.0001):
     Shw = Sw
     Shx = Sw
     # e_iden = np.zeros((1, T))
