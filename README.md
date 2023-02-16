@@ -35,7 +35,7 @@ python -m pip install -r requirements.txt
 ```
 
 ### How to run
-```console
+```python
 import numpy as np
 from ancplotter.ancplotter import Plot
 import pyroomacoustics as pra
