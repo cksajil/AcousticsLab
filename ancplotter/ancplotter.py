@@ -49,6 +49,9 @@ class Plot:
         plt.show()
 
     def error_plot(self, error_sig):
+        """
+        A function to plot ANC cancelled error signal
+        """
         fig, ax = plt.subplots()
         fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
         plt.plot(error_sig, label='error signal')
