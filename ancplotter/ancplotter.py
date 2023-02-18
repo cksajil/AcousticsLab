@@ -32,6 +32,9 @@ class Plot:
         plt.show()
 
     def secondary_path_graphs(self, Sw, Shw):
+        """
+        Function to plot secondary path impulse response and its estimate
+        """
         fig, ax = plt.subplots()
         fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
 
