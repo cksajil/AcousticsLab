@@ -18,6 +18,9 @@ class Plot:
         print(self.width, self.height)
 
     def rir_plot(self, data, sampling_rate):
+        """
+        Function to plot given room impulse response
+        """
         fig, ax = plt.subplots()
         fig.subplots_adjust(left=.16, bottom=.17, right=.99, top=.97)
         data_len = len(data)
