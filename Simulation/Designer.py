@@ -7,7 +7,6 @@ lwidth 		= 	0.8
 labelsize 	= 	12
 
 plt.rc('font', family='serif')
-plt.rc('text', usetex=True)
 plt.rc('xtick', labelsize = labelsize)
 plt.rc('ytick', labelsize = labelsize)
 plt.rc('axes', labelsize  = labelsize)
